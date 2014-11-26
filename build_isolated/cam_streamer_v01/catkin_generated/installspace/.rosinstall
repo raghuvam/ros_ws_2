@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/setup.sh
