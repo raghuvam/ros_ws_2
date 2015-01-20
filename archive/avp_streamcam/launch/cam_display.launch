@@ -1,0 +1,149 @@
+<launch>
+
+	<arg name="cam0" default="0" />
+        <arg name="cam1" default="0" /> 
+        <arg name="cam2" default="0" /> 
+        <arg name="cam3" default="0" /> 
+        <arg name="cam4" default="0" /> 
+        <arg name="cam5" default="0" /> 
+
+	<group if="$(arg cam0)">
+		<node 
+			name="cam0_display" 
+			pkg="image_view" 
+			type="image_view" 
+		>
+		<remap from="image" to="cam0/avp_streamcam/image_raw"/>
+		</node>
+                <node
+			ns="cam0/avp_streamcam"
+                        name="cam0_proc"
+                        pkg="image_proc"
+                        type="image_proc"
+                >       
+                </node>
+                <node
+                        name="cam0_proc_display"
+                        pkg="image_view"
+                        type="image_view"
+                >
+                <remap from="image" to="cam0/avp_streamcam/image_color"/>
+                </node>
+	</group>
+        <group if="$(arg cam1)">
+                <node
+                        name="cam1_display"
+                        pkg="image_view"
+                        type="image_view"
+                >
+                <remap from="image" to="cam1/avp_streamcam/image_raw"/>
+                </node>
+                <node
+                        ns="cam1/avp_streamcam"
+                        name="cam1_proc"
+                        pkg="image_proc"
+                        type="image_proc"
+                >
+                </node>
+                <node
+                        name="cam1_proc_display"
+                        pkg="image_view"
+                        type="image_view"
+                >
+                <remap from="image" to="cam1/avp_streamcam/image_color"/>
+                </node>
+        </group>
+        <group if="$(arg cam2)">
+                <node
+                        name="cam2_display"
+                        pkg="image_view"
+                        type="image_view"
+                >
+                <remap from="image" to="cam2/avp_streamcam/image_raw"/>
+                </node>
+                <node
+                        ns="cam2/avp_streamcam"
+                        name="cam2_proc"
+                        pkg="image_proc"
+                        type="image_proc"
+                >
+                </node>
+                <node
+                        name="cam2_proc_display"
+                        pkg="image_view"
+                        type="image_view"
+                >
+                <remap from="image" to="cam2/avp_streamcam/image_color"/>
+                </node>
+        </group>
+        <group if="$(arg cam3)">
+                <node
+                        name="cam3_display"
+                        pkg="image_view"
+                        type="image_view"
+                >
+                <remap from="image" to="cam3/avp_streamcam/image_raw"/>
+                </node>
+                <node
+                        ns="cam3/avp_streamcam"
+                        name="cam3_proc"
+                        pkg="image_proc"
+                        type="image_proc"
+                >
+                </node>
+                <node
+                        name="cam3_proc_display"
+                        pkg="image_view"
+                        type="image_view"
+                >
+                <remap from="image" to="cam3/avp_streamcam/image_color"/>
+                </node>
+        </group>
+        <group if="$(arg cam4)">
+                <node
+                        name="cam4_display"
+                        pkg="image_view"
+                        type="image_view"
+                >
+                <remap from="image" to="cam4/avp_streamcam/image_raw"/>
+                </node>
+                <node
+                        ns="cam4/avp_streamcam"
+                        name="cam4_proc"
+                        pkg="image_proc"
+                        type="image_proc"
+                >
+                </node>
+                <node
+                        name="cam4_proc_display"
+                        pkg="image_view"
+                        type="image_view"
+                >
+                <remap from="image" to="cam4/avp_streamcam/image_color"/>
+                </node>
+        </group>
+        <group if="$(arg cam5)">
+                <node
+                        name="cam5_display"
+                        pkg="image_view"
+                        type="image_view"
+                >
+                <remap from="image" to="cam5/avp_streamcam/image_raw"/>
+                </node>
+                <node
+                        ns="cam5/avp_streamcam"
+                        name="cam5_proc"
+                        pkg="image_proc"
+                        type="image_proc"
+                >
+                </node>
+                <node
+                        name="cam5_proc_display"
+                        pkg="image_view"
+                        type="image_view"
+                >
+                <remap from="image" to="cam5/avp_streamcam/image_color"/>
+                </node>
+        </group>
+
+</launch>

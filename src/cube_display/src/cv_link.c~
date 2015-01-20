@@ -1,0 +1,15 @@
+
+
+#include "cv_link.h"
+
+#include "get_image.hpp"
+#include <stdio.h>
+
+void cv_link(int* cvBuf)
+{
+
+printf("this is cv_link function");
+getImage(cvBuf);
+
+}
+

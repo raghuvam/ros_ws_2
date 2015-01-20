@@ -1,0 +1,13 @@
+/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/.catkin
+/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/_setup_util.py
+/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/env.sh
+/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/setup.bash
+/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/setup.sh
+/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/setup.zsh
+/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/.rosinstall
+/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/etc/catkin/profile.d/05.catkin_make.bash
+/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/etc/catkin/profile.d/05.catkin_make_isolated.bash
+/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/lib/pkgconfig/hello_world.pc
+/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/share/hello_world/cmake/hello_worldConfig.cmake
+/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/share/hello_world/cmake/hello_worldConfig-version.cmake
+/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/share/hello_world/package.xml

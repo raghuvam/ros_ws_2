@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "hello_world")
+set(hello_world_MAINTAINER "x0221391 <x0221391@todo.todo>")
+set(hello_world_DEPRECATED "")
+set(hello_world_VERSION "0.0.0")
+set(hello_world_BUILD_DEPENDS "roscpp")
+set(hello_world_RUN_DEPENDS "roscpp")
+set(hello_world_BUILDTOOL_DEPENDS "catkin")

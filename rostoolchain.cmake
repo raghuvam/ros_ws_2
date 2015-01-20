@@ -10,12 +10,14 @@
 # Copy these lines to $(ROS_ROOT)/rostoolchain.cmake to try them out. 
 #
 set(GLSDK_ROOTFS /home/x0221391/cardimage_copy/rootfs)
-set(UBUNTU_ARM_ROOTFS /home/x0221391/ubuntu_arm/rootfs)
+set(UBUNTU_ARM_ROOTFS /home/x0221391/targetfs)
 set(CMAKE_SYSTEM_NAME Linux)
 set(CMAKE_C_COMPILER /usr/bin/arm-linux-gnueabihf-gcc-4.6)
 set(CMAKE_CXX_COMPILER /usr/bin/arm-linux-gnueabihf-g++-4.6)
 set(PYTHON_EXECUTABLE /usr/bin/python)
+#set(CMAKE_FIND_ROOT_PATH /home/x0221391/ubuntu_arm/rootfs) 
 set(CMAKE_FIND_ROOT_PATH /usr/arm-linux-gnueabihf) 
+set(CMAKE_PREFIX_PATH /home/x0221391/targetfs/opt/ros/hydro)
 set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM BOTH)
 set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
 set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY) 

@@ -1,0 +1,30 @@
+<launch>
+
+	<arg name="cam0" default="0" />
+        <arg name="cam1" default="0" />
+        <arg name="cam2" default="0" />
+        <arg name="cam3" default="0" />
+        <arg name="cam4" default="0" />
+        <arg name="cam5" default="0" />
+
+	<include file="$(find avp_streamcam)/launch/cam_capture.launch" >
+	<arg name="cam0" value="$(arg cam0)" />
+        <arg name="cam1" value="$(arg cam1)" />
+        <arg name="cam2" value="$(arg cam2)" />
+        <arg name="cam3" value="$(arg cam3)" />
+        <arg name="cam4" value="$(arg cam4)" />
+        <arg name="cam5" value="$(arg cam5)" />
+	</include>
+
+	<include file="$(find avp_streamcam)/launch/cam_trigger.launch" />
+
+       	<include file="$(find avp_streamcam)/launch/cam_display.launch" >
+       	<arg name="cam0" value="$(arg cam0)" />
+       	<arg name="cam1" value="$(arg cam1)" />
+       	<arg name="cam2" value="$(arg cam2)" />
+       	<arg name="cam3" value="$(arg cam3)" />
+       	<arg name="cam4" value="$(arg cam4)" />
+       	<arg name="cam5" value="$(arg cam5)" />
+       	</include>        
+
+</launch>

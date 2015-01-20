@@ -1,0 +1,11 @@
+<launch>
+        
+	<node 
+                name="trigger" 
+                pkg="avp_streamcam" 
+                type="trigger_streamcam" 
+                required="true"
+                launch-prefix="xterm -e"
+        />
+
+</launch>

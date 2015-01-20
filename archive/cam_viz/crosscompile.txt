@@ -1,0 +1,15 @@
+
+
+
+MESSAGE(STATUS "including Crosscompile.txt")
+
+## set path to Ubuntu rootfs directory to ${UBUNTU_ARM_ROOTFS}
+set(UBUNTU_ARM_ROOTFS /user/x0221391/ubuntu_arm/rootfs)
+
+## set path to ${GLSDK_ROOTFS}
+set(GLSDK_ROOTFS /user/x0221391/cardimage_copy/rootfs)
+
+
+set(GEN_DEPEND_LIBS -L${GLSDK_ROOTFS}/lib  -lcrypto -L${UBUNTU_ARM_ROOTFS}/usr/lib -ltinyxml -lbz2 -lorc-0.4 -lgsm -L${GLSDK_ROOTFS}/usr/lib/arm-linux-gnueabihf -lva -lpthread -lpthread_nonshared -lv4lconvert -ljpeg -lbz2 -lpng12 -lxcb -lXau -lXdmcp -lxcb-shm  -lxcb-render -logg -lboost_system-mt -lgtk-x11-2.0 -lpangocairo-1.0 -lX11 -lXfixes -latk-1.0 -lcairo -lgio-2.0 -lpangoft2-1.0 -lfontconfig -lXext -lXrender -lpixman-1 -lXinerama -lXi -lXrandr -lXcursor -lXcomposite  -lXdamage -lgthread-2.0 -ltinyxml -lffi -lv4l2  -lvpx -lvorbisenc -lvorbis -ltheoraenc -ltheoradec -lspeex -lschroedinger-1.0 -lavcodec -lbz2 -lyaml-cpp -lpcre -lfreetype -lgmodule-2.0 -lpython2.7 -lpango-1.0 -lgdk_pixbuf-2.0 -ljasper -ltiff -lgdk-x11-2.0 -lgobject-2.0 -lglib-2.0 -lv4l1 -lavcodec -lavformat -lavutil -lswscale -lcamera_calibration_parsers -lrospack -lpcre -ltinyxml -lapr-1 -laprutil-1 -licuuc -licui18n -luuid -licudata -lexpat -lz -lpython2.7 -lssl -lboost_program_options  ${GLSDK_ROOTFS}/usr/lib/arm-linux-gnueabihf/libcrypto.a -L${GLSDK_ROOTFS}/usr/share/ros/hydro/lib/ -lcamera_calibration_parsers -lrospack ${UBUNTU_ARM_ROOTFS}/lib/arm-linux-gnueabihf/libbz2.so.1.0 -L${GLSDK_ROOTFS}/usr/share/ros/hydro/lib -lconsole_bridge -lapr-1 -laprutil-1 -licuuc -licui18n -luuid -licudata -lexpat )
+
+

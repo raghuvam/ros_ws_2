@@ -1,0 +1,17 @@
+
+
+## set path to ${GLSDK_ROOTFS}
+set(GLSDK_ROOTFS_NEW /user/x0221391/targetfs)
+
+
+set(CMAKE_C_FLAGS "-isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath")
+
+set(top_srcdir /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/work/cortexa15hf-vfp-neon-3.10-oe-linux-gnueabi/omapdrmtest/1.0.0-r5/git)
+
+
+set(GEN_INCLUDE_DIRS /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/omap /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm  /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/dce /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/omap /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm  /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/gbm     -Wall -Wextra -Wsign-compare -Werror-implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Wunsafe-loop-optimizations -Wdeclaration-after-statement -Wold-style-definition -Wno-missing-field-initializers -Wno-unused-parameter -Wno-attributes -Wno-long-long -Winline $(top_srcdir)/util)
+
+
+set(GEN_DEPEND_LIBS ${GLSDK_ROOTFS_NEW}/usr/lib/libutil.a -L${GLSDK_ROOTFS_NEW}/usr/lib  -ldrm -ldrm_omap  -ldce -ldrm -ldrm_omap -lavformat -lavutil  -lgbm  -lEGL -lIMGegl -ldrm_omap -lsrv_um  -lGLESv2 -lsrv_um -ludev -lwayland-server -lffi -lconsole_bridge -laprutil-1 -lapr-1 -licuuc -licui18n -lboost_system -lboost_thread -lexpat -luuid -licudata  -lavformat -lavutil -X11 ${GLSDK_ROOTFS_NEW}/usr/lib/libboost_system.so.1.54.0 ${GLSDK_ROOTFS_NEW}/usr/lib/libboost_thread.so.1.54.0)
+
+include_directories(${GEN_INCLUDE_DIRS} ${GLSDK_ROOTFS_NEW}/usr/include)

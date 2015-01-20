@@ -1,0 +1,34 @@
+
+
+## set path to ${GLSDK_ROOTFS}
+set(GLSDK_ROOTFS_NEW /user/x0221391/targetfs)
+
+## set path to Ubuntu rootfs directory to ${UBUNTU_ARM_ROOTFS} -Werror-implicit-function-declaration
+set(UBUNTU_ARM_ROOTFS /user/x0221391/ubuntu_arm/rootfs)
+
+#
+
+set(GLSDK_ROOTFS /user/x0221391/cardimage_copy/rootfs)
+
+set(CMAKE_C_FLAGS "-isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive")
+
+set(CMAKE_CXX_FLAGS "-isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive")  
+
+
+#-Wall -Wextra -Wsign-compare  -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wnested-externs -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Wunsafe-loop-optimizations  -Wold-style-definition -Wno-missing-field-initializers -Wno-unused-parameter -Wno-attributes -Wno-long-long -Winline -Wdeclaration-after-statement -Wpacked
+
+set(top_srcdir /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/work/cortexa15hf-vfp-neon-3.10-oe-linux-gnueabi/omapdrmtest/1.0.0-r5/git)
+
+
+set(GEN_INCLUDE_DIRS /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/omap /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm  /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/dce /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/omap /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm  /user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/gbm $(top_srcdir)/util)
+
+include_directories(${GEN_INCLUDE_DIRS} ${GLSDK_ROOTFS_NEW}/usr/include ${GLSDK_ROOTFS_NEW}/usr/include/X11 )
+
+set(KMSCUBE_DEPENDS_LIBS ${GLSDK_ROOTFS_NEW}/usr/lib/libutil.a -L${GLSDK_ROOTFS_NEW}/usr/lib  -ldrm   -ldce -lavformat -lavutil  -lgbm  -lEGL -lIMGegl -ldrm_omap -lsrv_um  -lGLESv2 -ludev -lwayland-server -lffi -lconsole_bridge -laprutil-1 -lapr-1 -licuuc -licui18n -lexpat -luuid -licudata  -lbz2 -ldri2  -lv4lconvert -lxcb -lXau -lXdmcp -lxcb-shm -lxcb-render -lX11 -lXi  -lXext  -lXcursor -lXcomposite -lXdamage -lXinerama)
+# -lv4l2  -lXfixes   -lXrandr
+
+set(GEN_DEPEND_LIBS -L${GLSDK_ROOTFS}/lib  -lcrypto -L${UBUNTU_ARM_ROOTFS}/usr/lib -lv4l1 -ltinyxml -lorc-0.4 -lgsm  -lboost_thread -L${GLSDK_ROOTFS}/usr/lib/arm-linux-gnueabihf -lva -lpthread -ljpeg -lpng12  -logg -lboost_system-mt -lgtk-x11-2.0 -lpangocairo-1.0  -latk-1.0 -lcairo -lgio-2.0 -lpangoft2-1.0 -lfontconfig  -lpixman-1  -lgthread-2.0 -lvpx -lvorbisenc -lvorbis -ltheoraenc -ltheoradec -lspeex -lschroedinger-1.0 -lavcodec -lyaml-cpp -lpcre -lfreetype -lgmodule-2.0 -lpython2.7 -lpango-1.0 -lgdk_pixbuf-2.0 -ljasper -ltiff -lgdk-x11-2.0 -lgobject-2.0 -lglib-2.0 -lswscale -lrospack -lz -lssl -lboost_program_options  ${GLSDK_ROOTFS}/usr/lib/arm-linux-gnueabihf/libcrypto.a -L${GLSDK_ROOTFS}/usr/share/ros/hydro/lib -lcamera_calibration_parsers -lrospack -L${GLSDK_ROOTFS}/usr/share/ros/hydro/lib ${GLSDK_ROOTFS_NEW}/usr/lib/libboost_system.so.1.54.0 ${GLSDK_ROOTFS_NEW}/usr/lib/libboost_thread.so.1.54.0 ${GLSDK_ROOTFS}/usr/lib/arm-linux-gnueabihf/libv4l2.so ${GLSDK_ROOTFS}/usr/lib/arm-linux-gnueabihf/libXfixes.so ${GLSDK_ROOTFS}/usr/lib/arm-linux-gnueabihf/libXrender.so ${GLSDK_ROOTFS}/usr/lib/arm-linux-gnueabihf/libXrandr.so)
+
+#set(GEN_DEPEND_LIBS -L${GLSDK_ROOTFS}/lib  -lcrypto -L${UBUNTU_ARM_ROOTFS}/usr/lib -ltinyxml -lorc-0.4 -lgsm -lXinerama -lboost_system -lboost_thread -L${GLSDK_ROOTFS}/usr/lib/arm-linux-gnueabihf -lva -lpthread -ljpeg -lpng12  -logg -lboost_system-mt -lgtk-x11-2.0 -lpangocairo-1.0  -latk-1.0 -lcairo -lgio-2.0 -lpangoft2-1.0 -lfontconfig -lXext -lXrender -lpixman-1 -lX11 -lXi -lXrandr -lXcursor -lXcomposite -lXdamage -lgthread-2.0 -ltinyxml -lffi -lvpx -lvorbisenc -lvorbis -ltheoraenc -ltheoradec -lspeex -lschroedinger-1.0 -lavcodec -lyaml-cpp -lpcre -lfreetype -lgmodule-2.0 -lpython2.7 -lpango-1.0 -lgdk_pixbuf-2.0 -ljasper -ltiff -lgdk-x11-2.0 -lgobject-2.0 -lglib-2.0   -lavcodec -lavutil -lswscale -lcamera_calibration_parsers -lrospack -lpcre -ltinyxml -lapr-1 -laprutil-1 -licuuc -licui18n -luuid -licudata -lexpat -lz -lpython2.7 -lssl -lboost_program_options -lpthread ${GLSDK_ROOTFS}/usr/lib/arm-linux-gnueabihf/libcrypto.a -L${GLSDK_ROOTFS}/usr/share/ros/hydro/lib -lcamera_calibration_parsers -lrospack -L${GLSDK_ROOTFS}/usr/share/ros/hydro/lib -lconsole_bridge -lapr-1 -laprutil-1 -licuuc -licui18n -luuid -licudata -lexpat ${GLSDK_ROOTFS_NEW}/usr/lib/libboost_system.so.1.54.0 ${GLSDK_ROOTFS_NEW}/usr/lib/libboost_thread.so.1.54.0)
+
+
