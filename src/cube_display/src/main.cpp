@@ -67,7 +67,7 @@ int red, green, blue;
          green = imgray.at<uchar>(j,i);
          blue  = imgray.at<uchar>(j,i);
 
-// Converting each one rgb pixel to YU-YV (i.e two pixels)
+// Converting a rgb pixel to YU-YV (i.e two pixels)
 
           unsigned char y = (0.299 * red) + (0.587 * green) + (0.114 * blue);
 
@@ -123,6 +123,7 @@ Mat imRGB(720,1280,CV_8UC3);
          SAT(g);
          SAT(b);
 
+         //aasigning r,g,b pixel values in RGB Mat image.
           imRGB.at<cv::Vec3b>(h,w)[0] = r;
           imRGB.at<cv::Vec3b>(h,w)[1] = g;
           imRGB.at<cv::Vec3b>(h,w)[2] = b;
@@ -134,7 +135,8 @@ Mat imRGB(720,1280,CV_8UC3);
          SAT(r);
          SAT(g);
          SAT(b);
-         
+
+         //aasigning r,g,b pixel values in RGB Mat image.
           imRGB.at<cv::Vec3b>(h,w)[0] = r;
           imRGB.at<cv::Vec3b>(h,w)[1] = g;
           imRGB.at<cv::Vec3b>(h,w)[2] = b;
@@ -144,8 +146,10 @@ Mat imRGB(720,1280,CV_8UC3);
       w=0;
    }
 
-// imgray contains
+// get canny edge image
 Mat imgray = cannyEdgeDetector(imRGB);
+
+// convert gray to yuyv image to display on kms cube
 gray2yuv(imgray,dst);
 
 }
