@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "cam_streamer")
-set(cam_streamer_MAINTAINER "x0221391 <x0221391@todo.todo>")
-set(cam_streamer_DEPRECATED "")
-set(cam_streamer_VERSION "0.0.0")
-set(cam_streamer_BUILD_DEPENDS )
-set(cam_streamer_RUN_DEPENDS "roscpp")
-set(cam_streamer_BUILDTOOL_DEPENDS "catkin" "roscpp")

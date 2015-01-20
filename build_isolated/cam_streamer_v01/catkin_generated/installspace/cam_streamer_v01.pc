@@ -1,8 +1,0 @@
-prefix=/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro
-
-Name: cam_streamer_v01
-Description: Description of cam_streamer_v01
-Version: 0.0.0
-Cflags: 
-Libs: -L/user/x0221391/ubuntu_arm/rootfs/opt/ros/hydro/lib 
-Requires: 

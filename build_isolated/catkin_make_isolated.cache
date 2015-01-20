@@ -1,2 +1,0 @@
-cam_streamer:cam_streamer_v01:hello_world
--DCMAKE_TOOLCHAIN_FILE=/home/x0221391/ws_arm/rostoolchain_vision.cmake -DCMAKE_VERBOSE_MAKEFILE=true

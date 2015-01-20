@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "capture_display")
-set(capture_display_MAINTAINER "x0221391 <x0221391@todo.todo>")
-set(capture_display_DEPRECATED "")
-set(capture_display_VERSION "0.0.0")
-set(capture_display_BUILD_DEPENDS "boost" "message_generation" "opencv" "roscpp" "sensor_msgs" "std_msgs")
-set(capture_display_RUN_DEPENDS "boost" "opencv" "roscpp" "sensor_msgs" "std_msgs")
-set(capture_display_BUILDTOOL_DEPENDS "catkin")

@@ -1,8 +1,0 @@
-prefix=/home/x0221391/new_ws_arm/install
-
-Name: capture_display
-Description: Description of capture_display
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/x0221391/new_ws_arm/install/lib 
-Requires: 

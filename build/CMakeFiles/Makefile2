@@ -96,7 +96,7 @@ clean: CMakeFiles/clean_test_results.dir/clean
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  6
 	@echo "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
@@ -205,7 +205,7 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  8
 	@echo "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
@@ -236,7 +236,7 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  9
 	@echo "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
@@ -261,797 +261,836 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory capture_display
+# Directory level rules for directory cube_display
 
 # Convenience name for "all" pass in the directory.
-capture_display/all: capture_display/CMakeFiles/demux.dir/all
-capture_display/all: capture_display/CMakeFiles/display-kms.dir/all
-capture_display/all: capture_display/CMakeFiles/display-kmscube.dir/all
-capture_display/all: capture_display/CMakeFiles/display-x11.dir/all
-capture_display/all: capture_display/CMakeFiles/esTransform.dir/all
-capture_display/all: capture_display/CMakeFiles/main.dir/all
-capture_display/all: capture_display/CMakeFiles/util.dir/all
-capture_display/all: capture_display/CMakeFiles/v4l2.dir/all
-.PHONY : capture_display/all
+cube_display/all: cube_display/CMakeFiles/buftest.dir/all
+cube_display/all: cube_display/CMakeFiles/demux.dir/all
+cube_display/all: cube_display/CMakeFiles/display-kms.dir/all
+cube_display/all: cube_display/CMakeFiles/display-kmscube.dir/all
+cube_display/all: cube_display/CMakeFiles/display-x11.dir/all
+cube_display/all: cube_display/CMakeFiles/esTransform.dir/all
+cube_display/all: cube_display/CMakeFiles/kmsutil.dir/all
+cube_display/all: cube_display/CMakeFiles/main.dir/all
+cube_display/all: cube_display/CMakeFiles/v4l2_v1.dir/all
+.PHONY : cube_display/all
 
 # Convenience name for "clean" pass in the directory.
-capture_display/clean: capture_display/CMakeFiles/demux.dir/clean
-capture_display/clean: capture_display/CMakeFiles/display-kms.dir/clean
-capture_display/clean: capture_display/CMakeFiles/display-kmscube.dir/clean
-capture_display/clean: capture_display/CMakeFiles/display-x11.dir/clean
-capture_display/clean: capture_display/CMakeFiles/esTransform.dir/clean
-capture_display/clean: capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-capture_display/clean: capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-capture_display/clean: capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-capture_display/clean: capture_display/CMakeFiles/main.dir/clean
-capture_display/clean: capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-capture_display/clean: capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-capture_display/clean: capture_display/CMakeFiles/roscpp_generate_messages_py.dir/clean
-capture_display/clean: capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-capture_display/clean: capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-capture_display/clean: capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-capture_display/clean: capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-capture_display/clean: capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-capture_display/clean: capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-capture_display/clean: capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-capture_display/clean: capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-capture_display/clean: capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-capture_display/clean: capture_display/CMakeFiles/util.dir/clean
-capture_display/clean: capture_display/CMakeFiles/v4l2.dir/clean
-.PHONY : capture_display/clean
+cube_display/clean: cube_display/CMakeFiles/buftest.dir/clean
+cube_display/clean: cube_display/CMakeFiles/demux.dir/clean
+cube_display/clean: cube_display/CMakeFiles/display-kms.dir/clean
+cube_display/clean: cube_display/CMakeFiles/display-kmscube.dir/clean
+cube_display/clean: cube_display/CMakeFiles/display-x11.dir/clean
+cube_display/clean: cube_display/CMakeFiles/esTransform.dir/clean
+cube_display/clean: cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+cube_display/clean: cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+cube_display/clean: cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+cube_display/clean: cube_display/CMakeFiles/kmsutil.dir/clean
+cube_display/clean: cube_display/CMakeFiles/main.dir/clean
+cube_display/clean: cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+cube_display/clean: cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+cube_display/clean: cube_display/CMakeFiles/roscpp_generate_messages_py.dir/clean
+cube_display/clean: cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+cube_display/clean: cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+cube_display/clean: cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+cube_display/clean: cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+cube_display/clean: cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+cube_display/clean: cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+cube_display/clean: cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+cube_display/clean: cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+cube_display/clean: cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+cube_display/clean: cube_display/CMakeFiles/v4l2_v1.dir/clean
+.PHONY : cube_display/clean
 
 # Convenience name for "preinstall" pass in the directory.
-capture_display/preinstall:
-.PHONY : capture_display/preinstall
+cube_display/preinstall:
+.PHONY : cube_display/preinstall
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/demux.dir
+# Target rules for target cube_display/CMakeFiles/buftest.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/demux.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/demux.dir/build.make capture_display/CMakeFiles/demux.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/demux.dir/build.make capture_display/CMakeFiles/demux.dir/build
+cube_display/CMakeFiles/buftest.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/buftest.dir/build.make cube_display/CMakeFiles/buftest.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/buftest.dir/build.make cube_display/CMakeFiles/buftest.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  1
-	@echo "Built target demux"
-.PHONY : capture_display/CMakeFiles/demux.dir/all
+	@echo "Built target buftest"
+.PHONY : cube_display/CMakeFiles/buftest.dir/all
 
 # Include target in all.
-all: capture_display/CMakeFiles/demux.dir/all
+all: cube_display/CMakeFiles/buftest.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/demux.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/buftest.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/demux.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/buftest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/demux.dir/rule
+.PHONY : cube_display/CMakeFiles/buftest.dir/rule
 
 # Convenience name for target.
-demux: capture_display/CMakeFiles/demux.dir/rule
+buftest: cube_display/CMakeFiles/buftest.dir/rule
+.PHONY : buftest
+
+# clean rule for target.
+cube_display/CMakeFiles/buftest.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/buftest.dir/build.make cube_display/CMakeFiles/buftest.dir/clean
+.PHONY : cube_display/CMakeFiles/buftest.dir/clean
+
+# clean rule for target.
+clean: cube_display/CMakeFiles/buftest.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target cube_display/CMakeFiles/demux.dir
+
+# All Build rule for target.
+cube_display/CMakeFiles/demux.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/demux.dir/build.make cube_display/CMakeFiles/demux.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/demux.dir/build.make cube_display/CMakeFiles/demux.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  2
+	@echo "Built target demux"
+.PHONY : cube_display/CMakeFiles/demux.dir/all
+
+# Include target in all.
+all: cube_display/CMakeFiles/demux.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+cube_display/CMakeFiles/demux.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/demux.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
+.PHONY : cube_display/CMakeFiles/demux.dir/rule
+
+# Convenience name for target.
+demux: cube_display/CMakeFiles/demux.dir/rule
 .PHONY : demux
 
 # clean rule for target.
-capture_display/CMakeFiles/demux.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/demux.dir/build.make capture_display/CMakeFiles/demux.dir/clean
-.PHONY : capture_display/CMakeFiles/demux.dir/clean
+cube_display/CMakeFiles/demux.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/demux.dir/build.make cube_display/CMakeFiles/demux.dir/clean
+.PHONY : cube_display/CMakeFiles/demux.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/demux.dir/clean
+clean: cube_display/CMakeFiles/demux.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/display-kms.dir
+# Target rules for target cube_display/CMakeFiles/display-kms.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/display-kms.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/display-kms.dir/build.make capture_display/CMakeFiles/display-kms.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/display-kms.dir/build.make capture_display/CMakeFiles/display-kms.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  2
+cube_display/CMakeFiles/display-kms.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/display-kms.dir/build.make cube_display/CMakeFiles/display-kms.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/display-kms.dir/build.make cube_display/CMakeFiles/display-kms.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  3
 	@echo "Built target display-kms"
-.PHONY : capture_display/CMakeFiles/display-kms.dir/all
+.PHONY : cube_display/CMakeFiles/display-kms.dir/all
 
 # Include target in all.
-all: capture_display/CMakeFiles/display-kms.dir/all
+all: cube_display/CMakeFiles/display-kms.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/display-kms.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/display-kms.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/display-kms.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/display-kms.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/display-kms.dir/rule
+.PHONY : cube_display/CMakeFiles/display-kms.dir/rule
 
 # Convenience name for target.
-display-kms: capture_display/CMakeFiles/display-kms.dir/rule
+display-kms: cube_display/CMakeFiles/display-kms.dir/rule
 .PHONY : display-kms
 
 # clean rule for target.
-capture_display/CMakeFiles/display-kms.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/display-kms.dir/build.make capture_display/CMakeFiles/display-kms.dir/clean
-.PHONY : capture_display/CMakeFiles/display-kms.dir/clean
+cube_display/CMakeFiles/display-kms.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/display-kms.dir/build.make cube_display/CMakeFiles/display-kms.dir/clean
+.PHONY : cube_display/CMakeFiles/display-kms.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/display-kms.dir/clean
+clean: cube_display/CMakeFiles/display-kms.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/display-kmscube.dir
+# Target rules for target cube_display/CMakeFiles/display-kmscube.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/display-kmscube.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/display-kmscube.dir/build.make capture_display/CMakeFiles/display-kmscube.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/display-kmscube.dir/build.make capture_display/CMakeFiles/display-kmscube.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  3
+cube_display/CMakeFiles/display-kmscube.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/display-kmscube.dir/build.make cube_display/CMakeFiles/display-kmscube.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/display-kmscube.dir/build.make cube_display/CMakeFiles/display-kmscube.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  4
 	@echo "Built target display-kmscube"
-.PHONY : capture_display/CMakeFiles/display-kmscube.dir/all
+.PHONY : cube_display/CMakeFiles/display-kmscube.dir/all
 
 # Include target in all.
-all: capture_display/CMakeFiles/display-kmscube.dir/all
+all: cube_display/CMakeFiles/display-kmscube.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/display-kmscube.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/display-kmscube.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/display-kmscube.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/display-kmscube.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/display-kmscube.dir/rule
+.PHONY : cube_display/CMakeFiles/display-kmscube.dir/rule
 
 # Convenience name for target.
-display-kmscube: capture_display/CMakeFiles/display-kmscube.dir/rule
+display-kmscube: cube_display/CMakeFiles/display-kmscube.dir/rule
 .PHONY : display-kmscube
 
 # clean rule for target.
-capture_display/CMakeFiles/display-kmscube.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/display-kmscube.dir/build.make capture_display/CMakeFiles/display-kmscube.dir/clean
-.PHONY : capture_display/CMakeFiles/display-kmscube.dir/clean
+cube_display/CMakeFiles/display-kmscube.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/display-kmscube.dir/build.make cube_display/CMakeFiles/display-kmscube.dir/clean
+.PHONY : cube_display/CMakeFiles/display-kmscube.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/display-kmscube.dir/clean
+clean: cube_display/CMakeFiles/display-kmscube.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/display-x11.dir
+# Target rules for target cube_display/CMakeFiles/display-x11.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/display-x11.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/display-x11.dir/build.make capture_display/CMakeFiles/display-x11.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/display-x11.dir/build.make capture_display/CMakeFiles/display-x11.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  4
+cube_display/CMakeFiles/display-x11.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/display-x11.dir/build.make cube_display/CMakeFiles/display-x11.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/display-x11.dir/build.make cube_display/CMakeFiles/display-x11.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  5
 	@echo "Built target display-x11"
-.PHONY : capture_display/CMakeFiles/display-x11.dir/all
+.PHONY : cube_display/CMakeFiles/display-x11.dir/all
 
 # Include target in all.
-all: capture_display/CMakeFiles/display-x11.dir/all
+all: cube_display/CMakeFiles/display-x11.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/display-x11.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/display-x11.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/display-x11.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/display-x11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/display-x11.dir/rule
+.PHONY : cube_display/CMakeFiles/display-x11.dir/rule
 
 # Convenience name for target.
-display-x11: capture_display/CMakeFiles/display-x11.dir/rule
+display-x11: cube_display/CMakeFiles/display-x11.dir/rule
 .PHONY : display-x11
 
 # clean rule for target.
-capture_display/CMakeFiles/display-x11.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/display-x11.dir/build.make capture_display/CMakeFiles/display-x11.dir/clean
-.PHONY : capture_display/CMakeFiles/display-x11.dir/clean
+cube_display/CMakeFiles/display-x11.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/display-x11.dir/build.make cube_display/CMakeFiles/display-x11.dir/clean
+.PHONY : cube_display/CMakeFiles/display-x11.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/display-x11.dir/clean
+clean: cube_display/CMakeFiles/display-x11.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/esTransform.dir
+# Target rules for target cube_display/CMakeFiles/esTransform.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/esTransform.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/esTransform.dir/build.make capture_display/CMakeFiles/esTransform.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/esTransform.dir/build.make capture_display/CMakeFiles/esTransform.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  6
+cube_display/CMakeFiles/esTransform.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/esTransform.dir/build.make cube_display/CMakeFiles/esTransform.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/esTransform.dir/build.make cube_display/CMakeFiles/esTransform.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  7
 	@echo "Built target esTransform"
-.PHONY : capture_display/CMakeFiles/esTransform.dir/all
+.PHONY : cube_display/CMakeFiles/esTransform.dir/all
 
 # Include target in all.
-all: capture_display/CMakeFiles/esTransform.dir/all
+all: cube_display/CMakeFiles/esTransform.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/esTransform.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/esTransform.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/esTransform.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/esTransform.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/esTransform.dir/rule
+.PHONY : cube_display/CMakeFiles/esTransform.dir/rule
 
 # Convenience name for target.
-esTransform: capture_display/CMakeFiles/esTransform.dir/rule
+esTransform: cube_display/CMakeFiles/esTransform.dir/rule
 .PHONY : esTransform
 
 # clean rule for target.
-capture_display/CMakeFiles/esTransform.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/esTransform.dir/build.make capture_display/CMakeFiles/esTransform.dir/clean
-.PHONY : capture_display/CMakeFiles/esTransform.dir/clean
+cube_display/CMakeFiles/esTransform.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/esTransform.dir/build.make cube_display/CMakeFiles/esTransform.dir/clean
+.PHONY : cube_display/CMakeFiles/esTransform.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/esTransform.dir/clean
+clean: cube_display/CMakeFiles/esTransform.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+# Target rules for target cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target geometry_msgs_generate_messages_cpp"
-.PHONY : capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+.PHONY : cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_cpp: capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+geometry_msgs_generate_messages_cpp: cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : geometry_msgs_generate_messages_cpp
 
 # clean rule for target.
-capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-.PHONY : capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+clean: cube_display/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+# Target rules for target cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target geometry_msgs_generate_messages_lisp"
-.PHONY : capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+.PHONY : cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_lisp: capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+geometry_msgs_generate_messages_lisp: cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : geometry_msgs_generate_messages_lisp
 
 # clean rule for target.
-capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+clean: cube_display/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir
+# Target rules for target cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target geometry_msgs_generate_messages_py"
-.PHONY : capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+.PHONY : cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_py: capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+geometry_msgs_generate_messages_py: cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : geometry_msgs_generate_messages_py
 
 # clean rule for target.
-capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-.PHONY : capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+clean: cube_display/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/main.dir
+# Target rules for target cube_display/CMakeFiles/kmsutil.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/main.dir/all: capture_display/CMakeFiles/esTransform.dir/all
-capture_display/CMakeFiles/main.dir/all: capture_display/CMakeFiles/demux.dir/all
-capture_display/CMakeFiles/main.dir/all: capture_display/CMakeFiles/util.dir/all
-capture_display/CMakeFiles/main.dir/all: capture_display/CMakeFiles/v4l2.dir/all
-capture_display/CMakeFiles/main.dir/all: capture_display/CMakeFiles/display-kms.dir/all
-capture_display/CMakeFiles/main.dir/all: capture_display/CMakeFiles/display-kmscube.dir/all
-	$(MAKE) -f capture_display/CMakeFiles/main.dir/build.make capture_display/CMakeFiles/main.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/main.dir/build.make capture_display/CMakeFiles/main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  9 10
-	@echo "Built target main"
-.PHONY : capture_display/CMakeFiles/main.dir/all
+cube_display/CMakeFiles/kmsutil.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/kmsutil.dir/build.make cube_display/CMakeFiles/kmsutil.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/kmsutil.dir/build.make cube_display/CMakeFiles/kmsutil.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  10
+	@echo "Built target kmsutil"
+.PHONY : cube_display/CMakeFiles/kmsutil.dir/all
 
 # Include target in all.
-all: capture_display/CMakeFiles/main.dir/all
+all: cube_display/CMakeFiles/kmsutil.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 8
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/main.dir/all
+cube_display/CMakeFiles/kmsutil.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/kmsutil.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/main.dir/rule
+.PHONY : cube_display/CMakeFiles/kmsutil.dir/rule
 
 # Convenience name for target.
-main: capture_display/CMakeFiles/main.dir/rule
+kmsutil: cube_display/CMakeFiles/kmsutil.dir/rule
+.PHONY : kmsutil
+
+# clean rule for target.
+cube_display/CMakeFiles/kmsutil.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/kmsutil.dir/build.make cube_display/CMakeFiles/kmsutil.dir/clean
+.PHONY : cube_display/CMakeFiles/kmsutil.dir/clean
+
+# clean rule for target.
+clean: cube_display/CMakeFiles/kmsutil.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target cube_display/CMakeFiles/main.dir
+
+# All Build rule for target.
+cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/demux.dir/all
+cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/kmsutil.dir/all
+cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/display-x11.dir/all
+cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/esTransform.dir/all
+cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/display-kmscube.dir/all
+cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/display-kms.dir/all
+cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/v4l2_v1.dir/all
+cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/buftest.dir/all
+	$(MAKE) -f cube_display/CMakeFiles/main.dir/build.make cube_display/CMakeFiles/main.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/main.dir/build.make cube_display/CMakeFiles/main.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  11
+	@echo "Built target main"
+.PHONY : cube_display/CMakeFiles/main.dir/all
+
+# Include target in all.
+all: cube_display/CMakeFiles/main.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+cube_display/CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
+.PHONY : cube_display/CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: cube_display/CMakeFiles/main.dir/rule
 .PHONY : main
 
 # clean rule for target.
-capture_display/CMakeFiles/main.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/main.dir/build.make capture_display/CMakeFiles/main.dir/clean
-.PHONY : capture_display/CMakeFiles/main.dir/clean
+cube_display/CMakeFiles/main.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/main.dir/build.make cube_display/CMakeFiles/main.dir/clean
+.PHONY : cube_display/CMakeFiles/main.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/main.dir/clean
+clean: cube_display/CMakeFiles/main.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir
+# Target rules for target cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target roscpp_generate_messages_cpp"
-.PHONY : capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+.PHONY : cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_cpp: capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+roscpp_generate_messages_cpp: cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : roscpp_generate_messages_cpp
 
 # clean rule for target.
-capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+clean: cube_display/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir
+# Target rules for target cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target roscpp_generate_messages_lisp"
-.PHONY : capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+.PHONY : cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_lisp: capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+roscpp_generate_messages_lisp: cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : roscpp_generate_messages_lisp
 
 # clean rule for target.
-capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+clean: cube_display/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/roscpp_generate_messages_py.dir
+# Target rules for target cube_display/CMakeFiles/roscpp_generate_messages_py.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/roscpp_generate_messages_py.dir/build.make capture_display/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/roscpp_generate_messages_py.dir/build.make capture_display/CMakeFiles/roscpp_generate_messages_py.dir/build
+cube_display/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/roscpp_generate_messages_py.dir/build.make cube_display/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/roscpp_generate_messages_py.dir/build.make cube_display/CMakeFiles/roscpp_generate_messages_py.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target roscpp_generate_messages_py"
-.PHONY : capture_display/CMakeFiles/roscpp_generate_messages_py.dir/all
+.PHONY : cube_display/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/roscpp_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : cube_display/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_py: capture_display/CMakeFiles/roscpp_generate_messages_py.dir/rule
+roscpp_generate_messages_py: cube_display/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : roscpp_generate_messages_py
 
 # clean rule for target.
-capture_display/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/roscpp_generate_messages_py.dir/build.make capture_display/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : capture_display/CMakeFiles/roscpp_generate_messages_py.dir/clean
+cube_display/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/roscpp_generate_messages_py.dir/build.make cube_display/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : cube_display/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/roscpp_generate_messages_py.dir/clean
+clean: cube_display/CMakeFiles/roscpp_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+# Target rules for target cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+.PHONY : cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+rosgraph_msgs_generate_messages_cpp: cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : rosgraph_msgs_generate_messages_cpp
 
 # clean rule for target.
-capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+clean: cube_display/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+# Target rules for target cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+.PHONY : cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+rosgraph_msgs_generate_messages_lisp: cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : rosgraph_msgs_generate_messages_lisp
 
 # clean rule for target.
-capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+clean: cube_display/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+# Target rules for target cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target rosgraph_msgs_generate_messages_py"
-.PHONY : capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+.PHONY : cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_py: capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+rosgraph_msgs_generate_messages_py: cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : rosgraph_msgs_generate_messages_py
 
 # clean rule for target.
-capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+clean: cube_display/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+# Target rules for target cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target sensor_msgs_generate_messages_cpp"
-.PHONY : capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+.PHONY : cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_cpp: capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+sensor_msgs_generate_messages_cpp: cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : sensor_msgs_generate_messages_cpp
 
 # clean rule for target.
-capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-.PHONY : capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+.PHONY : cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+clean: cube_display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
+# Target rules for target cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target sensor_msgs_generate_messages_lisp"
-.PHONY : capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+.PHONY : cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_lisp: capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+sensor_msgs_generate_messages_lisp: cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 .PHONY : sensor_msgs_generate_messages_lisp
 
 # clean rule for target.
-capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-.PHONY : capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+.PHONY : cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+clean: cube_display/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir
+# Target rules for target cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target sensor_msgs_generate_messages_py"
-.PHONY : capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+.PHONY : cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_py: capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+sensor_msgs_generate_messages_py: cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 .PHONY : sensor_msgs_generate_messages_py
 
 # clean rule for target.
-capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-.PHONY : capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+.PHONY : cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+clean: cube_display/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir
+# Target rules for target cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target std_msgs_generate_messages_cpp"
-.PHONY : capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+.PHONY : cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_cpp: capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+std_msgs_generate_messages_cpp: cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : std_msgs_generate_messages_cpp
 
 # clean rule for target.
-capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+clean: cube_display/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir
+# Target rules for target cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target std_msgs_generate_messages_lisp"
-.PHONY : capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+.PHONY : cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_lisp: capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+std_msgs_generate_messages_lisp: cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : std_msgs_generate_messages_lisp
 
 # clean rule for target.
-capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+clean: cube_display/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/std_msgs_generate_messages_py.dir
+# Target rules for target cube_display/CMakeFiles/std_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/build.make capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/build.make capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/build
+cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/build.make cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/build.make cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 
 	@echo "Built target std_msgs_generate_messages_py"
-.PHONY : capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/all
+.PHONY : cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_py: capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+std_msgs_generate_messages_py: cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : std_msgs_generate_messages_py
 
 # clean rule for target.
-capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/build.make capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/build.make cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+clean: cube_display/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target capture_display/CMakeFiles/util.dir
+# Target rules for target cube_display/CMakeFiles/v4l2_v1.dir
 
 # All Build rule for target.
-capture_display/CMakeFiles/util.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/util.dir/build.make capture_display/CMakeFiles/util.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/util.dir/build.make capture_display/CMakeFiles/util.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  11
-	@echo "Built target util"
-.PHONY : capture_display/CMakeFiles/util.dir/all
-
-# Include target in all.
-all: capture_display/CMakeFiles/util.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-capture_display/CMakeFiles/util.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/util.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/util.dir/rule
-
-# Convenience name for target.
-util: capture_display/CMakeFiles/util.dir/rule
-.PHONY : util
-
-# clean rule for target.
-capture_display/CMakeFiles/util.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/util.dir/build.make capture_display/CMakeFiles/util.dir/clean
-.PHONY : capture_display/CMakeFiles/util.dir/clean
-
-# clean rule for target.
-clean: capture_display/CMakeFiles/util.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target capture_display/CMakeFiles/v4l2.dir
-
-# All Build rule for target.
-capture_display/CMakeFiles/v4l2.dir/all:
-	$(MAKE) -f capture_display/CMakeFiles/v4l2.dir/build.make capture_display/CMakeFiles/v4l2.dir/depend
-	$(MAKE) -f capture_display/CMakeFiles/v4l2.dir/build.make capture_display/CMakeFiles/v4l2.dir/build
+cube_display/CMakeFiles/v4l2_v1.dir/all:
+	$(MAKE) -f cube_display/CMakeFiles/v4l2_v1.dir/build.make cube_display/CMakeFiles/v4l2_v1.dir/depend
+	$(MAKE) -f cube_display/CMakeFiles/v4l2_v1.dir/build.make cube_display/CMakeFiles/v4l2_v1.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  12
-	@echo "Built target v4l2"
-.PHONY : capture_display/CMakeFiles/v4l2.dir/all
+	@echo "Built target v4l2_v1"
+.PHONY : cube_display/CMakeFiles/v4l2_v1.dir/all
 
 # Include target in all.
-all: capture_display/CMakeFiles/v4l2.dir/all
+all: cube_display/CMakeFiles/v4l2_v1.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-capture_display/CMakeFiles/v4l2.dir/rule: cmake_check_build_system
+cube_display/CMakeFiles/v4l2_v1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 capture_display/CMakeFiles/v4l2.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cube_display/CMakeFiles/v4l2_v1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles 0
-.PHONY : capture_display/CMakeFiles/v4l2.dir/rule
+.PHONY : cube_display/CMakeFiles/v4l2_v1.dir/rule
 
 # Convenience name for target.
-v4l2: capture_display/CMakeFiles/v4l2.dir/rule
-.PHONY : v4l2
+v4l2_v1: cube_display/CMakeFiles/v4l2_v1.dir/rule
+.PHONY : v4l2_v1
 
 # clean rule for target.
-capture_display/CMakeFiles/v4l2.dir/clean:
-	$(MAKE) -f capture_display/CMakeFiles/v4l2.dir/build.make capture_display/CMakeFiles/v4l2.dir/clean
-.PHONY : capture_display/CMakeFiles/v4l2.dir/clean
+cube_display/CMakeFiles/v4l2_v1.dir/clean:
+	$(MAKE) -f cube_display/CMakeFiles/v4l2_v1.dir/build.make cube_display/CMakeFiles/v4l2_v1.dir/clean
+.PHONY : cube_display/CMakeFiles/v4l2_v1.dir/clean
 
 # clean rule for target.
-clean: capture_display/CMakeFiles/v4l2.dir/clean
+clean: cube_display/CMakeFiles/v4l2_v1.dir/clean
 .PHONY : clean
 
 #=============================================================================

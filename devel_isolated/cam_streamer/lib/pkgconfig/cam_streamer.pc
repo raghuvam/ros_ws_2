@@ -1,8 +1,0 @@
-prefix=/home/x0221391/new_ws_arm/devel_isolated/cam_streamer
-
-Name: cam_streamer
-Description: Description of cam_streamer
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/x0221391/new_ws_arm/devel_isolated/cam_streamer/lib 
-Requires: 

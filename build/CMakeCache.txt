@@ -256,17 +256,20 @@ _CATKIN_GTEST_INCLUDE:FILEPATH=_CATKIN_GTEST_INCLUDE-NOTFOUND
 //Path to a file.
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 
-//Value Computed by CMake
-capture_display_BINARY_DIR:STATIC=/home/x0221391/new_ws_arm/build/capture_display
-
-//Value Computed by CMake
-capture_display_SOURCE_DIR:STATIC=/home/x0221391/new_ws_arm/src/capture_display
+//Dependencies for target
+buftest_LIB_DEPENDS:STATIC=
 
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/catkin/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/cpp_common/cmake
+
+//Value Computed by CMake
+cube_display_BINARY_DIR:STATIC=/home/x0221391/new_ws_arm/build/cube_display
+
+//Value Computed by CMake
+cube_display_SOURCE_DIR:STATIC=/home/x0221391/new_ws_arm/src/cube_display
 
 //Dependencies for target
 demux_LIB_DEPENDS:STATIC=
@@ -323,6 +326,9 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//Dependencies for target
+kmsutil_LIB_DEPENDS:STATIC=
+
 //Path to a library.
 lib:FILEPATH=/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/lib/libxmlrpcpp.so
 
@@ -357,10 +363,7 @@ sensor_msgs_DIR:PATH=/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/sh
 std_msgs_DIR:PATH=/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/std_msgs/cmake
 
 //Dependencies for target
-util_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-v4l2_LIB_DEPENDS:STATIC=
+v4l2_v1_LIB_DEPENDS:STATIC=
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/xmlrpcpp/cmake

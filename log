@@ -1,4 +1,64 @@
-/usr/bin/cmake -H/home/x0221391/new_ws_arm/src -B/home/x0221391/new_ws_arm/build --check-build-system CMakeFiles/Makefile.cmake 0
+-- The C compiler identification is GNU 4.6.3
+-- The CXX compiler identification is GNU 4.6.3
+-- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc-4.6
+-- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc-4.6 -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++-4.6
+-- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++-4.6 -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Using CATKIN_DEVEL_PREFIX: /home/x0221391/new_ws_arm/devel
+-- Using CMAKE_PREFIX_PATH: /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro
+-- This workspace overlays: /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro
+-- Found PythonInterp: /usr/bin/python (found version "2.7.3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/x0221391/new_ws_arm/build/test_results
+-- Could NOT find PythonInterp (missing:  PYTHON_EXECUTABLE) (found version "2.7.3")
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found.
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- catkin 0.5.81
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - cube_display
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'cube_display'
+-- ==> add_subdirectory(cube_display)
+-- opencv libs :  debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_calib3d.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_contrib.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_core.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_features2d.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_flann.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_gpu.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_highgui.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_imgproc.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_legacy.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_ml.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_nonfree.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_objdetect.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_photo.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_stitching.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_superres.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_video.so;debug;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_videostab.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_calib3d.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_contrib.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_core.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_features2d.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_flann.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_gpu.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_highgui.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_imgproc.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_legacy.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_ml.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_nonfree.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_objdetect.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_photo.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_stitching.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_superres.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_video.so;optimized;/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_videostab.so 
+-- Configuring done
+CMake Warning at cube_display/CMakeLists.txt:49 (add_executable):
+  Cannot generate a safe runtime search path for target main because there is
+  a cycle in the constraint graph:
+
+    dir 0 is [/home/x0221391/new_ws_arm/devel/lib]
+    dir 1 is [/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib]
+    dir 2 is [/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/lib]
+    dir 3 is [/home/x0221391/cardimage_copy/rootfs/usr/share/../lib]
+      dir 4 must precede it due to runtime library [libpthread.so]
+      dir 5 must precede it due to runtime library [libXfixes.so.3]
+    dir 4 is [/home/x0221391/cardimage_copy/rootfs/usr/lib]
+      dir 3 must precede it due to runtime library [libboost_signals.so.1.46.1]
+      dir 5 must precede it due to runtime library [libXfixes.so.3]
+    dir 5 is [/user/x0221391/cardimage_copy/rootfs/usr/lib/arm-linux-gnueabihf]
+      dir 4 must precede it due to runtime library [libpthread.so]
+
+  Some of these libraries may not be found correctly.
+
+
+-- Generating done
+-- Build files have been written to: /home/x0221391/new_ws_arm/build
 /usr/bin/cmake -H/home/x0221391/new_ws_arm/src -B/home/x0221391/new_ws_arm/build --check-build-system CMakeFiles/Makefile.cmake 0
 /usr/bin/cmake -E cmake_progress_start /home/x0221391/new_ws_arm/build/CMakeFiles /home/x0221391/new_ws_arm/build/CMakeFiles/progress.marks
 make -f CMakeFiles/Makefile2 all
@@ -8,85 +68,157 @@ make -f cube_display/CMakeFiles/demux.dir/build.make cube_display/CMakeFiles/dem
 make -f cube_display/CMakeFiles/display-kms.dir/build.make cube_display/CMakeFiles/display-kms.dir/depend
 make -f cube_display/CMakeFiles/display-kmscube.dir/build.make cube_display/CMakeFiles/display-kmscube.dir/depend
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-cd /home/x0221391/new_ws_arm/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/x0221391/new_ws_arm/src /home/x0221391/new_ws_arm/src/cube_display /home/x0221391/new_ws_arm/build /home/x0221391/new_ws_arm/build/cube_display /home/x0221391/new_ws_arm/build/cube_display/CMakeFiles/display-kms.dir/DependInfo.cmake --color=
+cd /home/x0221391/new_ws_arm/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/x0221391/new_ws_arm/src /home/x0221391/new_ws_arm/src/cube_display /home/x0221391/new_ws_arm/build /home/x0221391/new_ws_arm/build/cube_display /home/x0221391/new_ws_arm/build/cube_display/CMakeFiles/buftest.dir/DependInfo.cmake --color=
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
 cd /home/x0221391/new_ws_arm/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/x0221391/new_ws_arm/src /home/x0221391/new_ws_arm/src/cube_display /home/x0221391/new_ws_arm/build /home/x0221391/new_ws_arm/build/cube_display /home/x0221391/new_ws_arm/build/cube_display/CMakeFiles/demux.dir/DependInfo.cmake --color=
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-cd /home/x0221391/new_ws_arm/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/x0221391/new_ws_arm/src /home/x0221391/new_ws_arm/src/cube_display /home/x0221391/new_ws_arm/build /home/x0221391/new_ws_arm/build/cube_display /home/x0221391/new_ws_arm/build/cube_display/CMakeFiles/display-kmscube.dir/DependInfo.cmake --color=
+cd /home/x0221391/new_ws_arm/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/x0221391/new_ws_arm/src /home/x0221391/new_ws_arm/src/cube_display /home/x0221391/new_ws_arm/build /home/x0221391/new_ws_arm/build/cube_display /home/x0221391/new_ws_arm/build/cube_display/CMakeFiles/display-kms.dir/DependInfo.cmake --color=
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-cd /home/x0221391/new_ws_arm/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/x0221391/new_ws_arm/src /home/x0221391/new_ws_arm/src/cube_display /home/x0221391/new_ws_arm/build /home/x0221391/new_ws_arm/build/cube_display /home/x0221391/new_ws_arm/build/cube_display/CMakeFiles/buftest.dir/DependInfo.cmake --color=
+cd /home/x0221391/new_ws_arm/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/x0221391/new_ws_arm/src /home/x0221391/new_ws_arm/src/cube_display /home/x0221391/new_ws_arm/build /home/x0221391/new_ws_arm/build/cube_display /home/x0221391/new_ws_arm/build/cube_display/CMakeFiles/display-kmscube.dir/DependInfo.cmake --color=
+Scanning dependencies of target display-kms
+Scanning dependencies of target display-kmscube
+Scanning dependencies of target buftest
 make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
+make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
+make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
+make -f cube_display/CMakeFiles/display-kms.dir/build.make cube_display/CMakeFiles/display-kms.dir/build
 make -f cube_display/CMakeFiles/buftest.dir/build.make cube_display/CMakeFiles/buftest.dir/build
 make -f cube_display/CMakeFiles/demux.dir/build.make cube_display/CMakeFiles/demux.dir/build
-make -f cube_display/CMakeFiles/display-kms.dir/build.make cube_display/CMakeFiles/display-kms.dir/build
 make -f cube_display/CMakeFiles/display-kmscube.dir/build.make cube_display/CMakeFiles/display-kmscube.dir/build
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-make[2]: Nothing to be done for `cube_display/CMakeFiles/display-kms.dir/build'.
-make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
-/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  3
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 1
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-make[2]: Nothing to be done for `cube_display/CMakeFiles/demux.dir/build'.
-make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
-/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  2
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 3
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-make[2]: Nothing to be done for `cube_display/CMakeFiles/display-kmscube.dir/build'.
-make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
-/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  4
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 2
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-make[2]: Nothing to be done for `cube_display/CMakeFiles/buftest.dir/build'.
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 4
+[ 33%] [ 33%] [ 44%] Building C object cube_display/CMakeFiles/demux.dir/src/demux.c.o
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/arm-linux-gnueabihf-gcc-4.6  -Ddemux_EXPORTS -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cube_display\" -DROSCONSOLE_BACKEND_LOG4CXX -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive -fPIC -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/omap -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/dce -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/gbm -I/home/x0221391/new_ws_arm/src/cube_display//util -I/user/x0221391/targetfs/usr/include -I/user/x0221391/targetfs/usr/include/X11 -I/home/x0221391/new_ws_arm/src/cube_display/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include/opencv -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/../include    -o CMakeFiles/demux.dir/src/demux.c.o   -c /home/x0221391/new_ws_arm/src/cube_display/src/demux.c
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/arm-linux-gnueabihf-gcc-4.6  -Ddisplay_kms_EXPORTS -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cube_display\" -DROSCONSOLE_BACKEND_LOG4CXX -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive -fPIC -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/omap -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/dce -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/gbm -I/home/x0221391/new_ws_arm/src/cube_display//util -I/user/x0221391/targetfs/usr/include -I/user/x0221391/targetfs/usr/include/X11 -I/home/x0221391/new_ws_arm/src/cube_display/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include/opencv -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/../include    -o CMakeFiles/display-kms.dir/src/display-kms.c.o   -c /home/x0221391/new_ws_arm/src/cube_display/src/display-kms.c
+Building C object cube_display/CMakeFiles/display-kmscube.dir/src/display-kmscube.c.o
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/arm-linux-gnueabihf-gcc-4.6  -Ddisplay_kmscube_EXPORTS -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cube_display\" -DROSCONSOLE_BACKEND_LOG4CXX -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive -fPIC -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/omap -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/dce -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/gbm -I/home/x0221391/new_ws_arm/src/cube_display//util -I/user/x0221391/targetfs/usr/include -I/user/x0221391/targetfs/usr/include/X11 -I/home/x0221391/new_ws_arm/src/cube_display/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include/opencv -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/../include    -o CMakeFiles/display-kmscube.dir/src/display-kmscube.c.o   -c /home/x0221391/new_ws_arm/src/cube_display/src/display-kmscube.c
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C [enabled by default]
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C [enabled by default]
+Building C object cube_display/CMakeFiles/buftest.dir/src/dmabuftest.c.o
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/arm-linux-gnueabihf-gcc-4.6  -Dbuftest_EXPORTS -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cube_display\" -DROSCONSOLE_BACKEND_LOG4CXX -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive -fPIC -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/omap -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/dce -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/gbm -I/home/x0221391/new_ws_arm/src/cube_display//util -I/user/x0221391/targetfs/usr/include -I/user/x0221391/targetfs/usr/include/X11 -I/home/x0221391/new_ws_arm/src/cube_display/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include/opencv -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/../include    -o CMakeFiles/buftest.dir/src/dmabuftest.c.o   -c /home/x0221391/new_ws_arm/src/cube_display/src/dmabuftest.c
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C [enabled by default]
+/home/x0221391/new_ws_arm/src/cube_display/src/display-kmscube.c: In function ‘init_gl’:
+/home/x0221391/new_ws_arm/src/cube_display/src/display-kmscube.c:303:2: warning: passing argument 1 of ‘eglGetDisplay’ makes integer from pointer without a cast [enabled by default]
+/user/x0221391/targetfs/usr/include/EGL/egl.h:255:31: note: expected ‘EGLNativeDisplayType’ but argument is of type ‘struct gbm_device *’
+/home/x0221391/new_ws_arm/src/cube_display/src/display-kmscube.c:346:40: warning: assignment from incompatible pointer type [enabled by default]
+/home/x0221391/new_ws_arm/src/cube_display/src/display-kmscube.c:351:41: warning: assignment from incompatible pointer type [enabled by default]
+/home/x0221391/new_ws_arm/src/cube_display/src/display-kmscube.c:356:51: warning: assignment from incompatible pointer type [enabled by default]
+/home/x0221391/new_ws_arm/src/cube_display/src/demux.c: In function ‘open_file’:
+/home/x0221391/new_ws_arm/src/cube_display/src/demux.c:49:2: warning: ‘av_open_input_file’ is deprecated (declared at /user/x0221391/targetfs/usr/include/libavformat/avformat.h:1368) [-Wdeprecated-declarations]
+/home/x0221391/new_ws_arm/src/cube_display/src/demux.c:52:3: warning: ‘av_find_stream_info’ is deprecated (declared at /user/x0221391/targetfs/usr/include/libavformat/avformat.h:1412) [-Wdeprecated-declarations]
+/home/x0221391/new_ws_arm/src/cube_display/src/demux.c:59:2: warning: ‘dump_format’ is deprecated (declared at /user/x0221391/targetfs/usr/include/libavformat/avformat.h:1902) [-Wdeprecated-declarations]
+/home/x0221391/new_ws_arm/src/cube_display/src/demux.c: In function ‘demux_deinit’:
+/home/x0221391/new_ws_arm/src/cube_display/src/demux.c:233:2: warning: ‘av_close_input_file’ is deprecated (declared at /user/x0221391/targetfs/usr/include/libavformat/avformat.h:1580) [-Wdeprecated-declarations]
+/home/x0221391/new_ws_arm/src/cube_display/src/demux.c: In function ‘get_esds_offset’:
+/home/x0221391/new_ws_arm/src/cube_display/src/demux.c:152:13: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+Linking C shared library /home/x0221391/new_ws_arm/devel/lib/libbuftest.so
+Linking C shared library /home/x0221391/new_ws_arm/devel/lib/libdisplay-kmscube.so
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/cmake -E cmake_link_script CMakeFiles/buftest.dir/link.txt --verbose=1
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/cmake -E cmake_link_script CMakeFiles/display-kmscube.dir/link.txt --verbose=1
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/cmake -E cmake_link_script CMakeFiles/demux.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc-4.6  -fPIC -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive   -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/share/OpenCV/3rdparty/lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/share/OpenCV/3rdparty/lib -shared -Wl,-soname,libdemux.so -o /home/x0221391/new_ws_arm/devel/lib/libdemux.so CMakeFiles/demux.dir/src/demux.c.o 
 make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
 /usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  1
-[ 11%] [ 22%] Built target display-kms
-make -f cube_display/CMakeFiles/display-x11.dir/build.make cube_display/CMakeFiles/display-x11.dir/depend
+make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  3
+make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  4
+make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  2
+[ 44%] [ 44%] [ 44%] Built target buftest
+Built target display-kms
 Built target display-kmscube
+make -f cube_display/CMakeFiles/display-x11.dir/build.make cube_display/CMakeFiles/display-x11.dir/depend
+Built target demux
 make -f cube_display/CMakeFiles/esTransform.dir/build.make cube_display/CMakeFiles/esTransform.dir/depend
-[ 33%] [ 44%] Built target demux
 make -f cube_display/CMakeFiles/kmsutil.dir/build.make cube_display/CMakeFiles/kmsutil.dir/depend
-Built target buftest
 make -f cube_display/CMakeFiles/v4l2_v1.dir/build.make cube_display/CMakeFiles/v4l2_v1.dir/depend
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
 cd /home/x0221391/new_ws_arm/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/x0221391/new_ws_arm/src /home/x0221391/new_ws_arm/src/cube_display /home/x0221391/new_ws_arm/build /home/x0221391/new_ws_arm/build/cube_display /home/x0221391/new_ws_arm/build/cube_display/CMakeFiles/kmsutil.dir/DependInfo.cmake --color=
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
 cd /home/x0221391/new_ws_arm/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/x0221391/new_ws_arm/src /home/x0221391/new_ws_arm/src/cube_display /home/x0221391/new_ws_arm/build /home/x0221391/new_ws_arm/build/cube_display /home/x0221391/new_ws_arm/build/cube_display/CMakeFiles/v4l2_v1.dir/DependInfo.cmake --color=
-make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-cd /home/x0221391/new_ws_arm/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/x0221391/new_ws_arm/src /home/x0221391/new_ws_arm/src/cube_display /home/x0221391/new_ws_arm/build /home/x0221391/new_ws_arm/build/cube_display /home/x0221391/new_ws_arm/build/cube_display/CMakeFiles/esTransform.dir/DependInfo.cmake --color=
-make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-cd /home/x0221391/new_ws_arm/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/x0221391/new_ws_arm/src /home/x0221391/new_ws_arm/src/cube_display /home/x0221391/new_ws_arm/build /home/x0221391/new_ws_arm/build/cube_display /home/x0221391/new_ws_arm/build/cube_display/CMakeFiles/display-x11.dir/DependInfo.cmake --color=
-make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
-make -f cube_display/CMakeFiles/kmsutil.dir/build.make cube_display/CMakeFiles/kmsutil.dir/build
-make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-make[2]: Nothing to be done for `cube_display/CMakeFiles/kmsutil.dir/build'.
-make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
-/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  10
-[ 55%] Built target kmsutil
-make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
-make -f cube_display/CMakeFiles/v4l2_v1.dir/build.make cube_display/CMakeFiles/v4l2_v1.dir/build
+Scanning dependencies of target esTransform
 make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
 make -f cube_display/CMakeFiles/esTransform.dir/build.make cube_display/CMakeFiles/esTransform.dir/build
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-make[2]: Nothing to be done for `cube_display/CMakeFiles/v4l2_v1.dir/build'.
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 7
+[ 55%] Building C object cube_display/CMakeFiles/esTransform.dir/src/esTransform.c.o
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/arm-linux-gnueabihf-gcc-4.6  -DesTransform_EXPORTS -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cube_display\" -DROSCONSOLE_BACKEND_LOG4CXX -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive -fPIC -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/omap -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/dce -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/gbm -I/home/x0221391/new_ws_arm/src/cube_display//util -I/user/x0221391/targetfs/usr/include -I/user/x0221391/targetfs/usr/include/X11 -I/home/x0221391/new_ws_arm/src/cube_display/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include/opencv -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/../include    -o CMakeFiles/esTransform.dir/src/esTransform.c.o   -c /home/x0221391/new_ws_arm/src/cube_display/src/esTransform.c
+Scanning dependencies of target kmsutil
 make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
-/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  12
+make -f cube_display/CMakeFiles/kmsutil.dir/build.make cube_display/CMakeFiles/kmsutil.dir/build
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-make[2]: Nothing to be done for `cube_display/CMakeFiles/esTransform.dir/build'.
-make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
-/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  7
-[ 77%] Built target esTransform
-Built target v4l2_v1
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 10
+[ 66%] Building C object cube_display/CMakeFiles/kmsutil.dir/src/util.c.o
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/arm-linux-gnueabihf-gcc-4.6  -Dkmsutil_EXPORTS -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cube_display\" -DROSCONSOLE_BACKEND_LOG4CXX -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive -fPIC -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/omap -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/dce -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/gbm -I/home/x0221391/new_ws_arm/src/cube_display//util -I/user/x0221391/targetfs/usr/include -I/user/x0221391/targetfs/usr/include/X11 -I/home/x0221391/new_ws_arm/src/cube_display/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include/opencv -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/../include    -o CMakeFiles/kmsutil.dir/src/util.c.o   -c /home/x0221391/new_ws_arm/src/cube_display/src/util.c
+Scanning dependencies of target display-x11
 make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
 make -f cube_display/CMakeFiles/display-x11.dir/build.make cube_display/CMakeFiles/display-x11.dir/build
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-make[2]: Nothing to be done for `cube_display/CMakeFiles/display-x11.dir/build'.
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 5
+[ 77%] Building C object cube_display/CMakeFiles/display-x11.dir/src/display-x11.c.o
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/arm-linux-gnueabihf-gcc-4.6  -Ddisplay_x11_EXPORTS -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cube_display\" -DROSCONSOLE_BACKEND_LOG4CXX -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive -fPIC -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/omap -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/dce -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/gbm -I/home/x0221391/new_ws_arm/src/cube_display//util -I/user/x0221391/targetfs/usr/include -I/user/x0221391/targetfs/usr/include/X11 -I/home/x0221391/new_ws_arm/src/cube_display/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include/opencv -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/../include    -o CMakeFiles/display-x11.dir/src/display-x11.c.o   -c /home/x0221391/new_ws_arm/src/cube_display/src/display-x11.c
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C [enabled by default]
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C [enabled by default]
+Scanning dependencies of target v4l2_v1
+make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
+make -f cube_display/CMakeFiles/v4l2_v1.dir/build.make cube_display/CMakeFiles/v4l2_v1.dir/build
+make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 12
+[ 88%] Building C object cube_display/CMakeFiles/v4l2_v1.dir/src/v4l2.c.o
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/arm-linux-gnueabihf-gcc-4.6  -Dv4l2_v1_EXPORTS -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cube_display\" -DROSCONSOLE_BACKEND_LOG4CXX -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive -fPIC -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/omap -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/dce -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/gbm -I/home/x0221391/new_ws_arm/src/cube_display//util -I/user/x0221391/targetfs/usr/include -I/user/x0221391/targetfs/usr/include/X11 -I/home/x0221391/new_ws_arm/src/cube_display/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include/opencv -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/../include    -o CMakeFiles/v4l2_v1.dir/src/v4l2.c.o   -c /home/x0221391/new_ws_arm/src/cube_display/src/v4l2.c
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C [enabled by default]
+/home/x0221391/new_ws_arm/src/cube_display/src/v4l2.c: In function ‘v4l2_qbuf’:
+/home/x0221391/new_ws_arm/src/cube_display/src/v4l2.c:443:3: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 3 has type ‘pthread_t’ [-Wformat]
+/home/x0221391/new_ws_arm/src/cube_display/src/v4l2.c:443:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘__time_t’ [-Wformat]
+/home/x0221391/new_ws_arm/src/cube_display/src/v4l2.c:443:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘__suseconds_t’ [-Wformat]
+/home/x0221391/new_ws_arm/src/cube_display/src/v4l2.c: In function ‘v4l2_dqbuf’:
+/home/x0221391/new_ws_arm/src/cube_display/src/v4l2.c:486:2: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 3 has type ‘pthread_t’ [-Wformat]
+/home/x0221391/new_ws_arm/src/cube_display/src/v4l2.c:486:2: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘__time_t’ [-Wformat]
+/home/x0221391/new_ws_arm/src/cube_display/src/v4l2.c:486:2: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘__suseconds_t’ [-Wformat]
+Linking C shared library /home/x0221391/new_ws_arm/devel/lib/libesTransform.so
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/cmake -E cmake_link_script CMakeFiles/esTransform.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc-4.6  -fPIC -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive   -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/share/OpenCV/3rdparty/lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/share/OpenCV/3rdparty/lib -shared -Wl,-soname,libesTransform.so -o /home/x0221391/new_ws_arm/devel/lib/libesTransform.so CMakeFiles/esTransform.dir/src/esTransform.c.o 
+make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  7
+[ 88%] Built target esTransform
+Linking C shared library /home/x0221391/new_ws_arm/devel/lib/libdisplay-x11.so
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/cmake -E cmake_link_script CMakeFiles/display-x11.dir/link.txt --verbose=1
+Linking C shared library /home/x0221391/new_ws_arm/devel/lib/libkmsutil.so
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/cmake -E cmake_link_script CMakeFiles/kmsutil.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc-4.6  -fPIC -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive   -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/share/OpenCV/3rdparty/lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/share/OpenCV/3rdparty/lib -shared -Wl,-soname,libdisplay-x11.so -o /home/x0221391/new_ws_arm/devel/lib/libdisplay-x11.so CMakeFiles/display-x11.dir/src/display-x11.c.o 
+/usr/bin/arm-linux-gnueabihf-gcc-4.6  -fPIC -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive   -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/share/OpenCV/3rdparty/lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/share/OpenCV/3rdparty/lib -shared -Wl,-soname,libkmsutil.so -o /home/x0221391/new_ws_arm/devel/lib/libkmsutil.so CMakeFiles/kmsutil.dir/src/util.c.o 
 make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
 /usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  5
+make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  10
 [ 88%] Built target display-x11
+[ 88%] Built target kmsutil
+Linking C shared library /home/x0221391/new_ws_arm/devel/lib/libv4l2_v1.so
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/cmake -E cmake_link_script CMakeFiles/v4l2_v1.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc-4.6  -fPIC -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include  -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive   -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/share/OpenCV/3rdparty/lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/share/OpenCV/3rdparty/lib -shared -Wl,-soname,libv4l2_v1.so -o /home/x0221391/new_ws_arm/devel/lib/libv4l2_v1.so CMakeFiles/v4l2_v1.dir/src/v4l2.c.o 
+make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  12
+[ 88%] Built target v4l2_v1
 make -f cube_display/CMakeFiles/main.dir/build.make cube_display/CMakeFiles/main.dir/depend
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
 cd /home/x0221391/new_ws_arm/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/x0221391/new_ws_arm/src /home/x0221391/new_ws_arm/src/cube_display /home/x0221391/new_ws_arm/build /home/x0221391/new_ws_arm/build/cube_display /home/x0221391/new_ws_arm/build/cube_display/CMakeFiles/main.dir/DependInfo.cmake --color=
+Scanning dependencies of target main
 make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
 make -f cube_display/CMakeFiles/main.dir/build.make cube_display/CMakeFiles/main.dir/build
 make[2]: Entering directory `/home/x0221391/new_ws_arm/build'
-make[2]: Nothing to be done for `cube_display/CMakeFiles/main.dir/build'.
+/usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles 11
+[100%] Building CXX object cube_display/CMakeFiles/main.dir/src/main.cpp.o
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/arm-linux-gnueabihf-g++-4.6   -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cube_display\" -DROSCONSOLE_BACKEND_LOG4CXX -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/libdrm -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/omap -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/dce -I/user/x0221391/ti-glsdk_dra7xx-evm_6_10_00_02/yocto-layers/build/arago-tmp-external-linaro-toolchain/sysroots/dra7xx-evm/usr/include/gbm -I/home/x0221391/new_ws_arm/src/cube_display//util -I/user/x0221391/targetfs/usr/include -I/user/x0221391/targetfs/usr/include/X11 -I/home/x0221391/new_ws_arm/src/cube_display/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include/opencv -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/include -I/home/x0221391/cardimage_copy/rootfs/usr/share/../include    -o CMakeFiles/main.dir/src/main.cpp.o -c /home/x0221391/new_ws_arm/src/cube_display/src/main.cpp
+Linking CXX executable /home/x0221391/new_ws_arm/devel/lib/cube_display/main
+cd /home/x0221391/new_ws_arm/build/cube_display && /usr/bin/cmake -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++-4.6   -isystem/user/x0221391/arm_images/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/arm-linux-gnueabihf/include -fstack-protector -O2 -pipe -g -feliminate-unused-debug-types -rpath -DHAVE_KMSCUBE -fpermissive       -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib    -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/share/OpenCV/3rdparty/lib    -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib    -Wl,-rpath-link,/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/share/OpenCV/3rdparty/lib CMakeFiles/main.dir/src/main.cpp.o  -o /home/x0221391/new_ws_arm/devel/lib/cube_display/main -rdynamic -L/home/x0221391/cardimage_copy/rootfs/usr/lib /home/x0221391/new_ws_arm/devel/lib/libbuftest.so /home/x0221391/new_ws_arm/devel/lib/libdemux.so /home/x0221391/new_ws_arm/devel/lib/libkmsutil.so /home/x0221391/new_ws_arm/devel/lib/libdisplay-kms.so /home/x0221391/new_ws_arm/devel/lib/libdisplay-kmscube.so /home/x0221391/new_ws_arm/devel/lib/libdisplay-x11.so /home/x0221391/new_ws_arm/devel/lib/libesTransform.so /home/x0221391/new_ws_arm/devel/lib/libv4l2_v1.so /user/x0221391/targetfs/usr/lib/libutil.a -L/user/x0221391/targetfs/usr/lib -ldrm -ldce -lavformat -lavutil -lgbm -lEGL -lIMGegl -ldrm_omap -lsrv_um -lGLESv2 -ludev -lwayland-server -lffi -lconsole_bridge -laprutil-1 -lapr-1 -licuuc -licui18n -lexpat -luuid -licudata -lbz2 -ldri2 -lv4lconvert -lxcb -lXau -lXdmcp -lxcb-shm -lxcb-render -lX11 -lXi -lXext -lXcursor -lXcomposite -lXdamage -lXinerama /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_calib3d.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_contrib.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_core.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_features2d.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_flann.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_gpu.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_highgui.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_imgproc.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_legacy.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_ml.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_nonfree.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_objdetect.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_photo.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_stitching.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_superres.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_video.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib/libopencv_videostab.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/lib/libroscpp.so /home/x0221391/cardimage_copy/rootfs/usr/share/../lib/libboost_signals-mt.so /home/x0221391/cardimage_copy/rootfs/usr/share/../lib/libboost_filesystem-mt.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/lib/librosconsole.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/lib/librosconsole_log4cxx.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/lib/librosconsole_backend_interface.so /home/x0221391/cardimage_copy/rootfs/usr/share/../lib/liblog4cxx.so /home/x0221391/cardimage_copy/rootfs/usr/share/../lib/libboost_regex-mt.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/lib/libxmlrpcpp.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/lib/libroscpp_serialization.so /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/lib/librostime.so /home/x0221391/cardimage_copy/rootfs/usr/share/../lib/libboost_date_time-mt.so /home/x0221391/cardimage_copy/rootfs/usr/share/../lib/libboost_system-mt.so /home/x0221391/cardimage_copy/rootfs/usr/share/../lib/libboost_thread-mt.so -lpthread /home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/lib/libcpp_common.so -L/user/x0221391/cardimage_copy/rootfs/lib -lcrypto -L/user/x0221391/ubuntu_arm/rootfs/usr/lib -lv4l1 -ltinyxml -lorc-0.4 -lgsm -lboost_thread -L/user/x0221391/cardimage_copy/rootfs/usr/lib/arm-linux-gnueabihf -lva -lpthread -ljpeg -lpng12 -logg -lboost_system-mt -lgtk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgio-2.0 -lpangoft2-1.0 -lfontconfig -lpixman-1 -lgthread-2.0 -lvpx -lvorbisenc -lvorbis -ltheoraenc -ltheoradec -lspeex -lschroedinger-1.0 -lavcodec -lyaml-cpp -lpcre -lfreetype -lgmodule-2.0 -lpython2.7 -lpango-1.0 -lgdk_pixbuf-2.0 -ljasper -ltiff -lgdk-x11-2.0 -lgobject-2.0 -lglib-2.0 -lswscale -lrospack -lz -lssl -lboost_program_options /user/x0221391/cardimage_copy/rootfs/usr/lib/arm-linux-gnueabihf/libcrypto.a -L/user/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/lib -lcamera_calibration_parsers -lrospack -L/user/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/lib /user/x0221391/targetfs/usr/lib/libboost_system.so.1.54.0 /user/x0221391/targetfs/usr/lib/libboost_thread.so.1.54.0 /user/x0221391/cardimage_copy/rootfs/usr/lib/arm-linux-gnueabihf/libv4l2.so /user/x0221391/cardimage_copy/rootfs/usr/lib/arm-linux-gnueabihf/libXfixes.so /user/x0221391/cardimage_copy/rootfs/usr/lib/arm-linux-gnueabihf/libXrender.so /user/x0221391/cardimage_copy/rootfs/usr/lib/arm-linux-gnueabihf/libXrandr.so -lz -lssl -lboost_program_options /user/x0221391/cardimage_copy/rootfs/usr/lib/arm-linux-gnueabihf/libcrypto.a -lcamera_calibration_parsers /user/x0221391/targetfs/usr/lib/libboost_system.so.1.54.0 /user/x0221391/targetfs/usr/lib/libboost_thread.so.1.54.0 /user/x0221391/cardimage_copy/rootfs/usr/lib/arm-linux-gnueabihf/libv4l2.so /user/x0221391/cardimage_copy/rootfs/usr/lib/arm-linux-gnueabihf/libXfixes.so /user/x0221391/cardimage_copy/rootfs/usr/lib/arm-linux-gnueabihf/libXrender.so /user/x0221391/cardimage_copy/rootfs/usr/lib/arm-linux-gnueabihf/libXrandr.so -Wl,-rpath,/home/x0221391/new_ws_arm/devel/lib:/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/share/../lib:/home/x0221391/cardimage_copy/rootfs/usr/share/ros/hydro/lib:/user/x0221391/cardimage_copy/rootfs/usr/lib/arm-linux-gnueabihf:/home/x0221391/cardimage_copy/rootfs/usr/lib:/home/x0221391/cardimage_copy/rootfs/usr/share/../lib 
 make[2]: Leaving directory `/home/x0221391/new_ws_arm/build'
 /usr/bin/cmake -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  11
 [100%] Built target main
@@ -98,7 +230,7 @@ Build space: /home/x0221391/new_ws_arm/build
 Devel space: /home/x0221391/new_ws_arm/devel
 Install space: /home/x0221391/new_ws_arm/install
 ####
-#### Running command: "make cmake_check_build_system" in "/home/x0221391/new_ws_arm/build"
+#### Running command: "cmake /home/x0221391/new_ws_arm/src -DCATKIN_DEVEL_PREFIX=/home/x0221391/new_ws_arm/devel -DCMAKE_INSTALL_PREFIX=/home/x0221391/new_ws_arm/install -DCMAKE_TOOLCHAIN_FILE=/home/x0221391/ws_arm/rostoolchain_vision.cmake -DCMAKE_VERBOSE_MAKEFILE=true" in "/home/x0221391/new_ws_arm/build"
 ####
 ####
 #### Running command: "make -j4 -l4" in "/home/x0221391/new_ws_arm/build"
