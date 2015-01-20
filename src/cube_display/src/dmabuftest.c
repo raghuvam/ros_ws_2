@@ -50,19 +50,19 @@ usage(char *name)
 void *
 capture_loop(void *arg)
 {
-	struct thr_data *data = (struct thr_data *)arg;
-	struct display *disp = data->disp;
-	struct v4l2 *v4l2 = data->v4l2;
-	uint32_t fourcc = data->fourcc;
-	uint32_t width = data->width, height = data->height;
+		struct thr_data *data = (struct thr_data *)arg;
+		struct display *disp = data->disp;
+		struct v4l2 *v4l2 = data->v4l2;
+		uint32_t fourcc = data->fourcc;
+		uint32_t width = data->width, height = data->height;
 
-	struct buffer **buffers, *capt, *alg, **alg_bufs;
-	int ret, i;
-	unsigned char *src, *dst;
-	int w, h;
+		struct buffer **buffers, *capt, *alg, **alg_bufs;
+		int ret, i;
+		unsigned char *src, *dst;
+		int w, h;
 
-	buffers = disp_get_vid_buffers(disp, NBUF, fourcc, width, height);
-	if (!buffers) {
+		buffers = disp_get_vid_buffers(disp, NBUF, fourcc, width, height);
+		if (!buffers) {
 		return NULL;
 	}
 
@@ -95,6 +95,7 @@ omap_bo_cpu_prep(capt->bo[0], OMAP_GEM_READ);
 omap_bo_cpu_prep(alg->bo[0], OMAP_GEM_WRITE);
 
 /*
+// copying image from src to dst
 printf("Copying 6 : sizeof unit8 %d\n ", sizeof(uint8_t));
 for (h=0; h<720; h++)
 	for(w=0;w<1280/2;w++)
@@ -102,7 +103,7 @@ for (h=0; h<720; h++)
 */
 
 
-printf("Calling cv_link \n ");
+printf("Calling getImage() \n ");
 getImage(src,dst);
 
 

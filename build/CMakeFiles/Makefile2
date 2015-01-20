@@ -648,14 +648,14 @@ clean: cube_display/CMakeFiles/kmsutil.dir/clean
 # Target rules for target cube_display/CMakeFiles/main.dir
 
 # All Build rule for target.
-cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/demux.dir/all
-cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/kmsutil.dir/all
-cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/display-x11.dir/all
-cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/esTransform.dir/all
-cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/display-kmscube.dir/all
 cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/display-kms.dir/all
+cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/demux.dir/all
 cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/v4l2_v1.dir/all
+cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/esTransform.dir/all
+cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/display-x11.dir/all
 cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/buftest.dir/all
+cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/display-kmscube.dir/all
+cube_display/CMakeFiles/main.dir/all: cube_display/CMakeFiles/kmsutil.dir/all
 	$(MAKE) -f cube_display/CMakeFiles/main.dir/build.make cube_display/CMakeFiles/main.dir/depend
 	$(MAKE) -f cube_display/CMakeFiles/main.dir/build.make cube_display/CMakeFiles/main.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/x0221391/new_ws_arm/build/CMakeFiles  11
