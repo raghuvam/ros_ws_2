@@ -1,0 +1,8 @@
+prefix=/home/x0221391/new_ws_arm/devel
+
+Name: cube_display
+Description: Description of cube_display
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/x0221391/new_ws_arm/devel/lib 
+Requires: 

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "cube_display")
+set(cube_display_MAINTAINER "x0221391 <x0221391@todo.todo>")
+set(cube_display_DEPRECATED "")
+set(cube_display_VERSION "0.0.0")
+set(cube_display_BUILD_DEPENDS "boost" "message_generation" "opencv" "roscpp" "sensor_msgs" "std_msgs")
+set(cube_display_RUN_DEPENDS "boost" "opencv" "roscpp" "sensor_msgs" "std_msgs")
+set(cube_display_BUILDTOOL_DEPENDS "catkin")
